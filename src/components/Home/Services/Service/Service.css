@@ -1,0 +1,71 @@
+img.card-img-top {
+    width: 74px;
+    margin: 0 auto;
+}
+
+.service-card {
+    border: none !important;
+    padding: 34px 20px 20px 20px;
+    margin-bottom: 50px;
+}
+.service-card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.single-service-title, .single-service-title:hover{
+    color: #111430;
+    text-decoration: none !important;
+}
+.single-service-description{
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.animate:hover:before,.animate:hover:after{opacity: 1; transform: translate(0,0);}
+.animate:after{
+  content: attr(data-hover);
+  position:absolute;
+  right: 38%;
+  top: 40%;
+  /* width: 60%; */
+  /* text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: .8em; */
+  font-size: 40px;
+  font-weight: 600;
+  color: #333;
+  opacity: 0;
+  transform: translate(-100%,0);
+  transition: all .3s ease-in-out;
+}
+.animate:before {
+    content: 'Starts At (USD)';
+    position:absolute;
+    right: 25%;
+    top: 30%;
+    font-size: 25px;
+    font-weight: 400;
+    color: #333;
+    opacity: 0;
+    transform: translate(-100%,0);
+    transition: all .3s ease-in-out;
+}
+/*button div (button text before hover)*/
+.animate:hover div{opacity: 0; transform: translate(100%,0)}
+.animate div{
+  /* text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: .8em; */
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .service-card {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+  }

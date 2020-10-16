@@ -1,0 +1,14 @@
+.black-button, .black-button:hover {
+    background: #111430 !important;
+    border-color: #111430 !important;
+    padding: 6px 30px 6px 30px !important;
+}
+.black-button:focus,.form-control:focus {
+    box-shadow: 0 0 0 0.2rem #111430a9  !important;
+}
+a {
+    text-decoration: none !important;
+}
+section {
+    margin-top: 160px;
+}

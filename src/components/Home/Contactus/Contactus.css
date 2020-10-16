@@ -1,0 +1,49 @@
+.contact-section{
+    background: #FBD062;
+    /* margin-top: 100px; */
+    padding-top:20px
+
+
+}
+
+.contact-title {
+    font-family: Poppins;
+font-weight: 600;
+font-size: 34px;
+line-height: 43px;
+color: #000 !important;
+
+}
+.form-control.contact-us {
+    border: none !important;
+    border-radius: 4px !important;
+}
+input::placeholder {
+    color: rgba(0, 0, 0, 0.3) !important;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+textarea::placeholder {
+    color: rgba(0, 0, 0, 0.3) !important;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+.contact-box{
+    margin-top:60px;
+}
+
+.copyright{
+    margin-top: 120px;
+    padding-bottom: 20px;
+}
+.copyright p{
+    color: rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 768px) {
+    .contact-title {
+        text-align: center;
+    }
+    .contact-box p {
+        text-align: center;
+    }
+  }

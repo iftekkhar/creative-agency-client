@@ -1,0 +1,13 @@
+.service-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+p.status.card-text {
+    background: #FFE3E3;
+    padding: 5px 10px;
+    color: #FF4545;
+    border-radius: 3px;
+    text-transform: capitalize;
+}

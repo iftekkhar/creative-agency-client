@@ -1,0 +1,19 @@
+.service-title{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 34px;
+line-height: 43px;
+color: #2D2D2D;
+
+}
+.service-title span{
+color: #7AB259;
+}
+.service-box{
+    margin-top: 70px;
+}
+@media screen and (max-width: 768px) {
+    .service-section{
+        margin-top: 80px;
+    }
+  }

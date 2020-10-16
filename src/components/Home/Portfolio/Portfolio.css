@@ -1,0 +1,41 @@
+.swiper-wrapper {
+    height: 350px !important;
+    
+}
+.swiper-slide{
+    width: 360px !important;
+    overflow-y: hidden !important;
+}
+
+.portfolio-section{
+    background: #111430;
+    margin-top: 100px;
+    padding-top:100px
+}
+.swiper-pagination-bullet {
+    background: #FBD062  !important;
+    width: 15px !important ;
+    height: 15px !important;
+}
+.portfolio-title {
+    font-family: Poppins;
+font-weight: 600;
+font-size: 34px;
+line-height: 43px;
+color: #fff !important;
+}
+.portfolio-title span{
+color: #7AB259;
+}
+.portfolio-slider{
+    margin-top:60px;
+    padding-bottom: 60px;
+}
+@media screen and (max-width: 768px) {
+    .portfolio-section{
+        margin-top: 50px;
+        padding-top:50px
+    
+    
+    }
+  }

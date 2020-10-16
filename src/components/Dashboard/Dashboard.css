@@ -1,0 +1,49 @@
+.dash-panel {
+    background: #f4f7fc;
+}
+
+
+.file-upload-button {
+    background: #DEFFED !important;
+    border: 1px solid #009444 !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    padding: 5px 8px !important;
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #009444 !important;
+}
+
+#upload_button input[type=file] {
+    display:none;
+}
+.dashboard-card {
+    border: none !important;
+    border-radius: 20px !important;
+}
+.green-button, .green-button:hover {
+    background: #009444 !important;
+    border-color: #009444 !important;
+    padding: 6px 20px 6px 20px !important;
+}
+.green-button:focus,.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgb(76 175 80 / 58%) !important;
+}
+thead {
+    border-radius: 10px !important;
+    background: #f4f7fc !important;
+}
+.panel-title{
+    display: flex;
+    justify-content:space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .panel-title{
+        display: block;
+        text-align: center;
+    }
+  }

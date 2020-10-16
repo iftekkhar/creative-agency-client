@@ -1,0 +1,41 @@
+.navigation-bar a {
+    font-family: poppins !important;
+    color: #474747!important;
+    margin-left:30px;
+
+}
+
+.navigation-bar a::after {
+    content:"";
+    width:0%;
+    height:3px;
+    display: block;
+    background-color: #7AB259;
+    margin-top:3px
+}
+.navigation-bar a:active::after, .navigation-bar a:hover::after{
+    color: #474747 !important;
+    font-weight: 500 !important;
+    width: 100%;
+    transition:all .5s;
+
+}
+.navigation-bar a:active{
+    font-weight: 600 !important;
+} 
+.navigation-bar a:hover{
+    transition:all .25s;
+
+}
+
+a.no-hover-effect:hover::after{
+    width:0 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        background: #e2b94e;
+        border-radius: 5px;
+        padding: 20px 0;
+    }
+  }
