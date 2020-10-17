@@ -1,5 +1,18 @@
 .sidebar{
     position: fixed !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dash-nav-collapse{
+
+    background: #f4f7fc;
+    border-radius: 5px;
+    padding: 20px 40px;
+    z-index: 99999;
+}
+.nav-flex{
+    flex-direction: column !important;
 }
 .sidebar li a{
     margin-bottom: 2em;
@@ -18,7 +31,16 @@
     color: #7AB259 !important;
 } */
 @media screen and (max-width: 768px) {
+    /* .sidebar{
+        position: absolute !important;
+        display: flex;
+        flex-direction: row !important;
+
+    } */
     .sidebar-panel {
         margin-bottom: 150px;
     }
+    /* .nav-flex{
+        flex-direction: row;
+    } */
   }

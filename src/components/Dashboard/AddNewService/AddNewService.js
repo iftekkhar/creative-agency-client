@@ -20,7 +20,7 @@ const AddNewService = () => {
         setServiceIcon(newFile);
 
     }
-    console.log(serviceIcon.name)
+
     const handleSubmit = e => {
         e.preventDefault();
         const formData = new FormData()

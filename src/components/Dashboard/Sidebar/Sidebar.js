@@ -20,12 +20,12 @@ const Sidebar = () => {
             .then(data => setIsAdmin(data))
     }, [])
     return (
-        <div className="sidebar d-flex flex-column justify-content-between py-4" style={{ height: "100%" }}>
-            <Navbar expand="lg" style={{ padding: 0 }} className="flex-column">
+        <div className="sidebar py-4" style={{ height: "100%" }}>
+            <Navbar expand="lg" style={{ padding: 0 }} className="nav-flex">
 
                 <Navbar.Brand href="/"><Image src={Logo} fluid width={150} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav ">
+                <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="flex-column  py-4 dashboard-sidebar">
                         {isAdmin ?
                             <>

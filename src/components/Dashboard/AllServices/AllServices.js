@@ -6,6 +6,7 @@ const AllServices = () => {
     //LoggedIn User State
     const [loggedInUser, setLoggedInUser, isAdmin, setIsAdmin] = useContext(UserContext);
     const [serviceLists, setServiceLists] = useState([])
+
     useEffect(() => {
         fetch('https://nameless-shelf-48183.herokuapp.com/my-orders?email=' + loggedInUser.email, {
             method: 'GET',
@@ -17,8 +18,14 @@ const AllServices = () => {
             .then(res => res.json())
             .then(data => setServiceLists(data))
     }, [])
-    const handleChange = e => {
-        console.log(e.target.value);
+
+    const handleSelect = (e, i) => {
+        console.log(e);
+        console.log(this);
+        console.log(Window.event);
+        // setValue({
+        //     dropdownSelect: e,
+        // })
     }
     return (
         <div className="dash-panel-section d-flex flex-column py-4" style={{ height: "100%" }}>
@@ -42,7 +49,7 @@ const AllServices = () => {
                         <tbody>
                             {serviceLists.length === 0 && <Spinner animation="grow" variant="success" />
                             }
-                            {serviceLists.map(serviceList => <TableCell serviceList={serviceList} key={serviceList._id} handleChange={handleChange}></TableCell>)}
+                            {serviceLists.map(serviceList => <TableCell serviceList={serviceList} key={serviceList._id}></TableCell>)}
                         </tbody>
                     </Table>
                 </Card>

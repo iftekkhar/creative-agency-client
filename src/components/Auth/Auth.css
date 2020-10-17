@@ -37,6 +37,9 @@
     .outlined-social-button img {
         margin-right: 50px;
     }
+    .login {
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 576px) {
     .outlined-social-button {
@@ -48,5 +51,8 @@
     }
     .outlined-social-button img {
         margin-right: 20px;
+    }
+    .login {
+        justify-content: center;
     }
 }

@@ -12,7 +12,7 @@ const AddFeedback = () => {
         designation: '',
         description: ''
     });
-    console.log(loggedInUser);
+    // console.log(loggedInUser);
 
     const handleOnBlur = e => {
         const newReview = { ...review }

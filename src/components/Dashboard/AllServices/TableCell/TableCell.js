@@ -1,7 +1,8 @@
-import React from 'react';
-import { Dropdown, Form } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Dropdown, DropdownButton } from 'react-bootstrap';
 
-const TableCell = ({ serviceList, handleBlur }) => {
+const TableCell = ({ serviceList }) => {
+
     return (
         <tr>
             <td>{serviceList.name}</td>
