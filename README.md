@@ -1,7 +1,7 @@
 # Creative Agency Website Built with React
 
 # Live Site : https://creative-agency-ia2020.web.app/
-
+![alt text](https://www.rsjlawang.com/assets/images/lightbox/image-3.jpg)
 ## Technologies Used
 
 ### FrontEnd
